@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3be7a718-74d9-41ef-b453-ad20da3bb38b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/androidTest/java/com/example/xwc/voicetest/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/java/com/example/xwc/voicetest/MainActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/values/colors.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/main/res/values/styles.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/app/src/test/java/com/example/xwc/voicetest/ExampleUnitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/gradle.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VoiceTest/settings.gradle" />
-    </list>
+    <list default="true" id="3be7a718-74d9-41ef-b453-ad20da3bb38b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
