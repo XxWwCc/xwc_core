@@ -8,3 +8,11 @@
 
     </item>
 </selector>
+
+<!--添加波纹状特效-->
+<!--<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+android:color="#FFEEEEEE">
+
+<item android:drawable="@drawable/button_bg_orange" />
+
+</ripple>-->
