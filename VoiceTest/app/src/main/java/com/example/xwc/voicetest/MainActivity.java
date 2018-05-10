@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity  {
         mTts.setParameter(SpeechConstant. VOICE_NAME, "xiaoyan" ); // 设置发音人
         mTts.setParameter(SpeechConstant. SPEED, "50" );// 设置语速
         mTts.setParameter(SpeechConstant. VOLUME, "80" );// 设置音量，范围 0~100
-        mTts.setParameter(SpeechConstant. ENGINE_TYPE, SpeechConstant. TYPE_LOCAL); //设置云端TYPE_CLOUD或离线TYPE_LOCAL
+        mTts.setParameter(SpeechConstant. ENGINE_TYPE, SpeechConstant. TYPE_CLOUD); //设置云端TYPE_CLOUD或离线TYPE_LOCAL
 //设置合成音频保存位置（可自定义保存位置），保存在 “./sdcard/iflytek.pcm”
 //保存在 SD 卡需要在 AndroidManifest.xml 添加写 SD 卡权限
 //仅支持保存为 pcm 和 wav 格式， 如果不需要保存合成音频，注释该行代码
