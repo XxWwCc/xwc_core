@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">哈工有思</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_debug">操作日志</string>
+    <string name="label_tip">小优提醒</string>
+
+    <string name="btn_start_move">开始摆棋</string>
+    <string name="btn_stop_move">停止摆棋</string>
+    <string name="btn_start_play">开始下棋</string>
+    <string name="btn_play_turn">小优走棋</string>
+</resources>
