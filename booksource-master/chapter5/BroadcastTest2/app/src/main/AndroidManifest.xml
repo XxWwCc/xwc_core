@@ -21,7 +21,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.example.broadcasttest.MY_BROADCAST" />
+                <action android:name="com.example.xwc.broadcasttest.MY_BROADCAST" />
             </intent-filter>
         </receiver>
     </application>

@@ -162,7 +162,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        /*limit 关键字查找数据*/
+        /*limit 关键字查找数据
+        * 查找的是前三行数据
+        * */
         Button limit = findViewById(R.id.Button4);
         limit.setOnClickListener(new View.OnClickListener() {
             @Override
