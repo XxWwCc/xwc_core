@@ -13,9 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import android.widget.VideoView;
-
 import java.io.File;
-import java.io.IOException;
 
 public class VideoActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -24,22 +22,23 @@ public class VideoActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Video);
+        setContentView(R.layout.video);
         Button play = findViewById(R.id.play);
         Button pause = findViewById(R.id.pause);
         Button replay = findViewById(R.id.replay);
+        videoView = findViewById(R.id.video_view);
         play.setOnClickListener(this);
         pause.setOnClickListener(this);
         replay.setOnClickListener(this);
         if (ContextCompat.checkSelfPermission(VideoActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(VideoActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
         }else {
-            initVidelPath();
+            initVideoPath();
         }
     }
 
-    private void initVidelPath() {
-            File file = new File(Environment.getExternalStorageDirectory(),"video.mp4");
+    private void initVideoPath() {
+            File file = new File(Environment.getExternalStorageDirectory(),"video.mkv");
             videoView.setVideoPath(file.getPath());
     }
 
@@ -49,7 +48,7 @@ public class VideoActivity extends AppCompatActivity implements View.OnClickList
         switch (requestCode){
             case 1:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-                    initVidelPath();
+                    initVideoPath();
                 }else {
                     Toast.makeText(this, "拒绝权限将无法使用程序", Toast.LENGTH_SHORT).show();
                     finish();
@@ -72,7 +71,7 @@ public class VideoActivity extends AppCompatActivity implements View.OnClickList
                     videoView.pause();
                 }
                 break;
-            case R.id.stop:
+            case R.id.replay:
                 if (!videoView.isPlaying()){
                     videoView.resume();
                 }
